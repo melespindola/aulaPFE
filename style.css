@@ -1,0 +1,80 @@
+/* Reset básico */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Fundo da página */
+body{
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Caixa principal */
+main{
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    width: 350px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+/* Título */
+h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Labels */
+label{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* Inputs e select */
+input, select{
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* Botão */
+button{
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #9d0987;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+/* Efeito ao passar o mouse */
+button:hover{
+    background-color: #f186db;
+}
+
+/* Resultado do ticket */
+#ticket-resultado{
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+/* Destacar prazo */
+mark{
+    background-color: #e79ada;
+    padding: 3px 6px;
+    border-radius: 4px;
+}
